@@ -62,9 +62,9 @@ addopts = "-q"
 testpaths = ["tests"]
 
 [tool.uv]
-exclude-newer = "7 days"
+exclude-newer = "2024-01-01"
 index-strategy = "first-index"
 
 [tool.uv.pip]
-exclude-newer = "7 days"
+exclude-newer = "2024-01-01"
 index-strategy = "first-index"
